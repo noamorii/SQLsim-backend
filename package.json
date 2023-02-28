@@ -1,0 +1,20 @@
+{
+  "name": "sqlsim-backend",
+  "version": "1.0.0",
+  "description": "SQL visual simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noamorii/SQLsim-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noamorii/SQLsim-backend/issues"
+  },
+  "homepage": "https://github.com/noamorii/SQLsim-backend#readme"
+}

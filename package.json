@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "SQL visual simulator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/noamorii/SQLsim-backend/issues"
   },
-  "homepage": "https://github.com/noamorii/SQLsim-backend#readme"
+  "homepage": "https://github.com/noamorii/SQLsim-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
 }
